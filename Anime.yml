@@ -1,0 +1,23 @@
+metadata:
+  421113: # TVDB id for Castlevania: Nocturne. Set by Hikari on MediUX. https://mediux.pro/sets/30188
+    url_poster: https://api.mediux.pro/assets/4f8df6b6-9089-4dec-9cc6-98dea39bd072
+    url_background: https://api.mediux.pro/assets/d33711c6-08d1-40f5-ac52-a39f9701de8f
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/4bc9f6f0-d477-4aa9-b4ea-57da52626002
+      2:
+        url_poster: https://api.mediux.pro/assets/2c96fb12-37c3-4aca-9751-34ed192312ef
+
+  329065: # TVDB id for Castlevania.
+    url_poster: https://theposterdb.com/api/assets/563511
+    url_background: 
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/563512
+      2:
+        url_poster: https://theposterdb.com/api/assets/563513
+      3:
+        url_poster: https://theposterdb.com/api/assets/563514
+      4: 
+        url_poster: https://theposterdb.com/api/assets/563515
+

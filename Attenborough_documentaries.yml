@@ -1,0 +1,618 @@
+# This version of the config uses the 'Orb' version of the Planet show Posters as metadata.
+# The set can be found here: https://theposterdb.com/set/143160
+# An alternate version of the config uses the 'Regular' version of the Planet show Posters as metadata.
+# The set can be found here: https://theposterdb.com/poster/238214
+
+collections:
+  #Only the 'Planet' documentaries
+  Attenborough's Planet Collection:
+    trakt_list:
+      - https://trakt.tv/users/agent531c/lists/the-planet-collection?sort=released%2Casc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/238229
+    collection_order: alpha
+    sort_title: ++++++++_attenboroughs_planet
+
+  # Only the 'Life' documentaries
+  Attenborough's Life Collection:
+    trakt_list:
+      - https://trakt.tv/users/lorumipsomlydia/lists/attenborough-life-on-earth?sort=released%2Cdesc
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/241456
+    collection_order: alpha
+    sort_title: ++++++++_attenboroughs_life
+
+  # All Movie/Show documentaries, including the Planet docs
+  David Attenborough Collection:
+    plex_all: true
+    sort_title: ++++++++_attenborough_collection
+    url_poster: https://theposterdb.com/api/assets/241457
+    collection_order: alpha
+    filter:
+      actor: David Attenborough
+
+metadata:
+  #====================================================================================
+  #
+  #                                PLANET SHOWS
+  #
+  #====================================================================================
+  79257: # TVDB id for Planet Earth. Set by willtong93 on MediUX. https://mediux.pro/sets/16034
+    url_poster: https://api.mediux.pro/assets/031f6e61-d16e-4ca0-8b9d-73cc0a235ba4
+    url_background: https://api.mediux.pro/assets/d10578fc-d026-4902-b009-fad2fa870440
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/b0977f3c-b329-441a-b4de-245899b50cd1
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/9dd13822-85dd-4930-a4d7-4d538d067ebc
+          2:
+            url_poster: https://api.mediux.pro/assets/9602d039-474a-4aa4-be73-d82f16eea22a
+          3:
+            url_poster: https://api.mediux.pro/assets/c31a8e20-ad7b-4e99-9712-9133a6a6e74b
+          4:
+            url_poster: https://api.mediux.pro/assets/54061f65-1721-4e3a-9b24-106d46ea390a
+          5:
+            url_poster: https://api.mediux.pro/assets/7efd58c5-e1ea-4d40-bcd8-ab8424369e7c
+          6:
+            url_poster: https://api.mediux.pro/assets/e6c296fd-2697-4eee-83d8-d396291d722a
+          7:
+            url_poster: https://api.mediux.pro/assets/dfd66f45-f882-4420-942b-e01504a04cf9
+          8:
+            url_poster: https://api.mediux.pro/assets/610dc986-a86b-421f-872b-0c514caba00c
+          9:
+            url_poster: https://api.mediux.pro/assets/98879322-6a93-4fd4-b66c-157f82a03f09
+          10:
+            url_poster: https://api.mediux.pro/assets/c7d83c54-ab15-474c-b1cf-a1d2c2174818
+          11:
+            url_poster: https://api.mediux.pro/assets/7508cde2-2c01-4ac0-a91a-a9d3d38b872c
+
+  
+  318408: # TVDB id for Planet Earth II. Set by willtong93 on MediUX. https://mediux.pro/sets/14326
+    url_poster: https://api.mediux.pro/assets/3b1d2363-6370-465c-94c9-91b6e2e3eb2b
+    url_background: https://api.mediux.pro/assets/38214cc5-ae45-41b6-bd86-0ad6e306dcc1
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/5f251733-24fe-406f-9e07-ad97d37a8ddb
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/4dbfdf90-0cbb-4da5-9dca-9bafaac42a60
+          2:
+            url_poster: https://api.mediux.pro/assets/226770a3-03f9-4c60-8e4c-34743d2ce1df
+          3:
+            url_poster: https://api.mediux.pro/assets/36151002-49ae-41c7-babe-4d66a8781dd0
+          4:
+            url_poster: https://api.mediux.pro/assets/e88cfd83-6c7f-4ae3-aa6a-718ea41dbfd7
+          5:
+            url_poster: https://api.mediux.pro/assets/6a5f691a-053c-413f-9cb4-9ca07e042726
+          6:
+            url_poster: https://api.mediux.pro/assets/1f564787-b661-4e73-887b-784f710a01ee
+
+  413197: # TVDB id for Planet Earth III. Set by willtong93 on MediUX. https://mediux.pro/sets/14000
+    url_poster: https://api.mediux.pro/assets/9ffb01e4-3650-4c68-9d28-731f90eb9c86
+    url_background: https://api.mediux.pro/assets/b8fe0915-5e37-412e-bad8-2d4c2e551f95
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/6ac066de-1771-410b-b989-de822d7075a7
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/4048a2c3-b643-48b0-9a43-f579a2815e19
+          2:
+            url_poster: https://api.mediux.pro/assets/f8546a1e-aca7-4ae1-b669-108c0d95d82c
+          3:
+            url_poster: https://api.mediux.pro/assets/b219b0f2-34ec-4bd5-afd2-49f4dcff85c3
+          4:
+            url_poster: https://api.mediux.pro/assets/9eee1a2c-ab77-43c0-820e-91a3224f2090
+          5:
+            url_poster: https://api.mediux.pro/assets/f5b6c086-be31-4dda-b2ef-181015e36aac
+          6:
+            url_poster: https://api.mediux.pro/assets/3e222d42-7b46-477f-a70f-30248b7d7332
+          7:
+            url_poster: https://api.mediux.pro/assets/46db43ab-842c-40a7-890a-f215568eed1e
+          8:
+            url_poster: https://api.mediux.pro/assets/2da58b79-7cf1-4f1c-87dd-3f66dd38706f
+
+
+  251418: #Frozen Planet:
+    url_poster: https://theposterdb.com/api/assets/238232
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238207
+      1:
+        url_poster: https://theposterdb.com/api/assets/238208
+  417395: #Frozen Planet II:
+    url_poster: https://theposterdb.com/api/assets/238233
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/264555
+      1:
+        url_poster: https://theposterdb.com/api/assets/264554
+
+  359250: #The Green Planet:
+    url_poster: https://theposterdb.com/api/assets/238241
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238228
+
+  74372: #The Blue Planet:
+    url_poster: https://theposterdb.com/api/assets/238240
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238225
+      1:
+        url_poster: https://theposterdb.com/api/assets/238226
+  330942: #Blue Planet II:
+    url_poster: https://theposterdb.com/api/assets/238231
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238204
+      1:
+        url_poster: https://theposterdb.com/api/assets/238205
+
+  359251: #Seven Worlds, One Planet:
+    url_poster: https://theposterdb.com/api/assets/238239
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238223
+
+  418505: #Prehistoric Planet(2022):
+    url_poster: https://theposterdb.com/api/assets/238238
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238220
+      1:
+        url_poster: https://theposterdb.com/api/assets/238221
+
+  355229: # Our Planet:
+    url_poster: https://theposterdb.com/api/assets/238234
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238210
+      1:
+        url_poster: https://theposterdb.com/api/assets/238211
+
+  359365: # A Perfect Planet:
+    url_poster: https://theposterdb.com/api/assets/238230
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238201
+      1:
+        url_poster: https://theposterdb.com/api/assets/238202
+
+  #====================================================================================
+  #
+  #                                NON-PLANET SHOWS
+  #
+  #====================================================================================
+  264241: # Adventure
+    url_poster: https://theposterdb.com/api/assets/263992
+
+  265145: # Africa (2013)
+    url_poster: https://theposterdb.com/api/assets/238115
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238116
+      1:
+        url_poster: https://theposterdb.com/api/assets/238117
+
+  151521: # Are We Changing Planet Earth? (aka The Truth About Climate Change)
+    url_poster: https://theposterdb.com/api/assets/238051
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238052
+      1:
+        url_poster: https://theposterdb.com/api/assets/238053
+
+  79610: # Attenborough in Paradise and Other Personal Voyages
+    url_poster: https://theposterdb.com/api/assets/237994
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/237995
+
+  397337: # Attenborough's Life in Color
+    url_poster: https://theposterdb.com/api/assets/238160
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238161
+      1:
+        url_poster: https://theposterdb.com/api/assets/238162
+
+  311317: # Attenboroughs Passion Projects
+    url_poster: https://theposterdb.com/api/assets/238075
+
+  264173: # Attenborough 60 Years in the Wild
+    url_poster: https://theposterdb.com/api/assets/238070, s0_pid
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238071
+
+  290034: # David Attenborough Conquest of the Skies
+    url_poster: https://theposterdb.com/api/assets/238102
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238103
+      1:
+        url_poster: https://theposterdb.com/api/assets/238104
+
+  349155: # David Attenboroughs Ant Mountain
+    url_poster: https://theposterdb.com/api/assets/238007
+
+  410034: # David Attenboroughs Global Adventure
+    url_poster: https://theposterdb.com/api/assets/238074
+
+  266388: # David Attenboroughs Natural Curiosities
+    url_poster: https://theposterdb.com/api/assets/238081,
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238082,
+      2:
+        url_poster: https://theposterdb.com/api/assets/238083,
+      3:
+        url_poster: https://theposterdb.com/api/assets/238084,
+      4:
+        url_poster: https://theposterdb.com/api/assets/238085,
+
+  273424: # David Attenboroughs Rise of Animals Triumph of the Vertebrates
+    url_poster: https://theposterdb.com/api/assets/238105
+
+  333247: # Deep Ocean
+    url_poster: https://theposterdb.com/api/assets/238040, s0_pid, s1_pid
+
+  352054: # Dynasties (2018)
+    url_poster: https://theposterdb.com/api/assets/238151
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238152
+      1:
+        url_poster: https://theposterdb.com/api/assets/238153
+
+  84843: # The First Eden
+    url_poster: https://theposterdb.com/api/assets/238135
+
+  200931: # First Life With David Attenborough
+    url_poster: https://theposterdb.com/api/assets/238089
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238090
+
+  265373: # Galapagos with David Attenborough
+    url_poster: https://theposterdb.com/api/assets/238123
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238124
+      1:
+        url_poster: https://theposterdb.com/api/assets/238125
+
+  304953: # Great Barrier Reef with David Attenborough
+    url_poster: https://theposterdb.com/api/assets/238127
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238126
+
+  302286: # The Hunt
+    url_poster: https://theposterdb.com/api/assets/238145
+    seasons:
+      1:
+        url_poster: https://theposterdb.com/api/assets/238145
+
+  259418: # Kingdom of Plants
+    url_poster: https://theposterdb.com/api/assets/238109
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238108
+      1:
+        url_poster: https://theposterdb.com/api/assets/238107
+
+  118421: # Life
+    url_poster: https://theposterdb.com/api/assets/238163
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238164
+      1:
+        url_poster: https://theposterdb.com/api/assets/238165
+
+  81394: # Life in Cold Blood
+    url_poster: https://theposterdb.com/api/assets/238167
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238168
+      1:
+        url_poster: https://theposterdb.com/api/assets/238169
+
+  74373: # Life in the Freezer
+    url_poster: https://theposterdb.com/api/assets/238172
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238171
+      1:
+        url_poster: https://theposterdb.com/api/assets/238170
+
+  79185: # Life in the Undergrowth
+    url_poster: https://theposterdb.com/api/assets/238173
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238174
+      1:
+        url_poster: https://theposterdb.com/api/assets/238175
+
+  78989: # The Life of Birds
+    url_poster: https://theposterdb.com/api/assets/238181
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238180
+      1:
+        url_poster: https://theposterdb.com/api/assets/238179
+
+  78994: # The Life of Mammals
+    url_poster: https://theposterdb.com/api/assets/238182
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238183
+      1:
+        url_poster: https://theposterdb.com/api/assets/238184
+
+  74371: # Life on Earth
+    url_poster: https://theposterdb.com/api/assets/238176
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238177
+      1:
+        url_poster: https://theposterdb.com/api/assets/238178
+
+  287019: # Life Story
+    url_poster: https://theposterdb.com/api/assets/238157
+
+  78864: # The Living Planet
+    url_poster: https://theposterdb.com/api/assets/238185
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238186
+      1:
+        url_poster: https://theposterdb.com/api/assets/238187
+
+  79616: # Lost Worlds, Vanished Lives
+    url_poster: https://theposterdb.com/api/assets/238092
+
+  230371: # Madagascar
+    url_poster: https://theposterdb.com/api/assets/238129
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238130
+      1:
+        url_poster: https://theposterdb.com/api/assets/238143
+
+  410848: # The Mating Game
+    url_poster: https://theposterdb.com/api/assets/238144
+
+  270732: # Micro Monsters with David Attenborough
+    url_poster: https://theposterdb.com/api/assets/238111
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238112
+      1:
+        url_poster: https://theposterdb.com/api/assets/238113
+
+  251581: # The Miracle of Bali
+    url_poster: https://theposterdb.com/api/assets/238079
+
+  85083: # Natures Great Events
+    url_poster: https://theposterdb.com/api/assets/238141
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238142
+      1:
+        url_poster: https://theposterdb.com/api/assets/238131
+
+  264243: # The People of Paradise
+    url_poster: https://theposterdb.com/api/assets/238078
+
+  276537: # Plants Behaving Badly
+    url_poster: https://theposterdb.com/api/assets/238110
+
+  78993: # The Private Life of Plants
+    url_poster: https://theposterdb.com/api/assets/238188
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238189
+      1:
+        url_poster: https://theposterdb.com/api/assets/238190
+
+  258633: # Secrets of Wild India
+    url_poster: https://theposterdb.com/api/assets/238133
+
+  78943: # State of the Planet
+    url_poster: https://theposterdb.com/api/assets/238059
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238060
+      1:
+        url_poster: https://theposterdb.com/api/assets/238061
+
+  79947: # Trials of Life
+    url_poster: https://theposterdb.com/api/assets/238191
+    seasons:
+      0:
+        url_poster: https://theposterdb.com/api/assets/238192
+      1:
+        url_poster: https://theposterdb.com/api/assets/238193
+
+  81652: # Tiger: Spy in the Jungle
+    url_poster: https://theposterdb.com/api/assets/238030
+
+  87911: # The Tribal Eye
+    url_poster: https://theposterdb.com/api/assets/238080
+
+  316346: # Wild City
+    url_poster: https://theposterdb.com/api/assets/238134
+
+  9511: # Zoo Quest
+    url_poster: https://theposterdb.com/api/assets/238077
+
+  #====================================================================================
+  #
+  #                                    MOVIES
+  #
+  #====================================================================================
+
+  113303: # The Amber Time Machine
+    url_poster: https://theposterdb.com/api/assets/238000
+
+  528965: # Animal House
+    url_poster: https://theposterdb.com/api/assets/238005
+
+  77027: # Attenborough and the Empire of Ants
+    url_poster: https://theposterdb.com/api/assets/238006
+
+  379393: # Attenborough and the Giant Dinosaur
+    url_poster: https://theposterdb.com/api/assets/238097
+
+  206671: # Attenbborough: 60 Years in the Wild
+    url_poster: https://theposterdb.com/api/assets/238071
+
+  123669: # Attenborough and the Giant Egg
+    url_poster: https://theposterdb.com/api/assets/238098
+
+  492729: # Attenborough and the Giant Elephant
+    url_poster: https://theposterdb.com/api/assets/238099
+
+  921728: # Attenborough and the Mammoth Graveyard
+    url_poster: https://theposterdb.com/api/assets/238100
+
+  497160: # Attenborough and the Sea Dragon
+    url_poster: https://theposterdb.com/api/assets/238101
+
+  978800: # Attenborough at 90
+    url_poster: https://theposterdb.com/api/assets/238072
+
+  395663: # Attenborough at 90: Behind the Lens
+    url_poster: https://theposterdb.com/api/assets/238073
+
+  862386: # Attenborough's Ark
+    url_poster: https://theposterdb.com/api/assets/238086
+
+  471921: # Attenborough's Big Birds
+    url_poster: https://theposterdb.com/api/assets/238009
+
+  193606: # Attenborough's Journey
+    url_poster: https://theposterdb.com/api/assets/238091
+
+  397619: # Attenborough's Life that Glows
+    url_poster: https://theposterdb.com/api/assets/238137
+
+  335016: # Attenborough's Paradise Birds
+    url_poster: https://theposterdb.com/api/assets/238630
+
+  516110: # Attenborough's Wonder of Eggs
+    url_poster: https://theposterdb.com/api/assets/238017
+
+  923004: # Attenborough's Wonder of Song
+    url_poster: https://theposterdb.com/api/assets/238018
+
+  113300: # A Blank on the Map
+    url_poster: https://theposterdb.com/api/assets/237996
+
+  922326: # Bowerbirds: The Art of Seduction
+    url_poster: https://theposterdb.com/api/assets/237998
+
+  828146: # Breaking Boundaries: The Science of our Planet
+    url_poster: https://theposterdb.com/api/assets/238064
+
+  20784: # Charles Darwin and the Tree of Life
+    url_poster: https://theposterdb.com/api/assets/238087
+
+  67978: # Clever Monkeys
+    url_poster: https://theposterdb.com/api/assets/238023
+
+  664280: # David Attenborough A Life on Our Planet
+    url_poster: https://theposterdb.com/api/assets/238068
+
+  246818: # David Attenborough's Natural History Museum Alive
+    url_poster: https://theposterdb.com/api/assets/238094
+
+  427183: # Desert Seas
+    url_poster: https://theposterdb.com/api/assets/238120
+
+  959785: # Dinosaurs - The Final Day
+    url_poster: https://theposterdb.com/api/assets/238096
+
+  675898: # Dragons and Damsels
+    url_poster: https://theposterdb.com/api/assets/238114s
+
+  742637: # Extinction: The Facts
+    url_poster: https://theposterdb.com/api/assets/238057
+
+  301965: # Fabulous Frogs
+    url_poster: https://theposterdb.com/api/assets/238011
+
+  46060: # Flying Monsters 3D
+    url_poster: https://theposterdb.com/api/assets/238095
+
+  123681: # Gorilla Revisited with David Attenborough
+    url_poster: https://theposterdb.com/api/assets/263741
+
+  175373: # Great Natural Wonders of the World
+    url_poster: https://theposterdb.com/api/assets/238128
+
+  540466: # The Greatest Wildlife Show on Earth
+    url_poster: https://theposterdb.com/api/assets/238140
+
+  433832: # Humming Bird: Jeweled Messangers
+    url_poster: https://theposterdb.com/api/assets/238019
+
+  446520: # Legends of the Deep: Deep Sea Sharks
+    url_poster: https://theposterdb.com/api/assets/238033
+
+  446518: # Legends of the Deep: Giant Squid
+    url_poster: https://theposterdb.com/api/assets/238034
+
+  576006: # Life on Air: David Attenborough
+    url_poster: https://theposterdb.com/api/assets/237999
+
+  123686: # The Link: Uncovering our Earliest Ancestors
+    url_poster: https://theposterdb.com/api/assets/238093
+
+  398412: # The Lost Gods of Easter Island
+    url_poster: https://theposterdb.com/api/assets/238001
+
+  913385: # Mountain Lions: Big Cats in High Places
+    url_poster: https://theposterdb.com/api/assets/238029
+
+  148686: # The Penguin King
+    url_poster: https://theposterdb.com/api/assets/238021
+
+  823800: # Planet Earth: A Celebration
+    # Orb Version
+    url_poster: https://theposterdb.com/api/assets/121587
+
+  819633: # Puerto Rico: Island of Enchantment
+    url_poster: https://theposterdb.com/api/assets/238132
+
+  519864: # The Queen's Green Planet
+    url_poster: https://theposterdb.com/api/assets/263997
+
+  922327: # The Song of the Earth
+    url_poster: https://theposterdb.com/api/assets/238004
+
+  914587: # Superfish Billfish
+    url_poster: https://theposterdb.com/api/assets/238039
+
+  70260: # Superfish Bluefin Tuna
+    url_poster: https://theposterdb.com/api/assets/238036
+
+  31762: # Survival Island
+    url_poster: https://theposterdb.com/api/assets/238640
+
+  578377: # Tasmania
+    url_poster: https://theposterdb.com/api/assets/238119
+
+  652876: # Whale Wisdom
+    url_poster: https://theposterdb.com/api/assets/238032
+
+  613842: # Wild Karnataka
+    url_poster: https://theposterdb.com/api/assets/238136
+
+  811703: # The Year Earth Changed
+    url_poster: https://theposterdb.com/api/assets/238062
+
+  399437: # Zoo Quest in Color
+    url_poster: https://theposterdb.com/api/assets/238076
